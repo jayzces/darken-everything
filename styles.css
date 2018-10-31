@@ -15,7 +15,7 @@ body {
 
 .focus {
     position: relative;
-    box-shadow: 0 0 0 150vh rgba(0, 0, 0, 0.5) !important;
+    box-shadow: 0 0 0 1600px rgba(0, 0, 0, 0.5) !important;
     z-index: 21; /* has to be higher than the nav z-index */
     pointer-events: auto !important;
 }
