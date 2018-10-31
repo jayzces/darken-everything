@@ -29,7 +29,7 @@ button.addEventListener('click', () => {
     generateFocus('page', 'card')
 })
 
-window.addEventListener('keydown', e => {
+window.addEventListener('keypress', e => {
     if (e.keyCode == 32) generateFocus('page', 'card')
 })
 
