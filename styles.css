@@ -2,6 +2,7 @@ body {
     background-color: #FAFAFA;
     margin: 0;
     padding: 0;
+    font-family: 'Cabin', sans-serif;
 }
 
 
@@ -74,7 +75,7 @@ nav.card {
     cursor: pointer;
 }
 
-.click {
+.click.click.click {
     background-color: #03A9F4;
 }
 
@@ -89,6 +90,27 @@ nav.card {
 }
 
 
+
+.popup {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-weight: 500;
+    font-size: 24px;
+    color: #FFD300;
+    pointer-events: none;
+    z-index: 100;
+}
+
+.popup.open {
+    display: flex;
+}
 
 
 @media all and (max-width: 1050px) {
